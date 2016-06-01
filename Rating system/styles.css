@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+}
+.geen {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url("star-grey-md.png");
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+
+.geen span {
+    display: inline-block;
+    height: 34px;
+    background-image: url("star-yellow.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}
+
+.geen:hover {
+    background-image: url("blue-star.png");
+    cursor: pointer;
+    background-size: cover;
+}
+
+body img {
+    width: 50px;
+}
